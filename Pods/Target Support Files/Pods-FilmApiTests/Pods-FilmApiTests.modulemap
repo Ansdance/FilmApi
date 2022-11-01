@@ -1,0 +1,6 @@
+framework module Pods_FilmApiTests {
+  umbrella header "Pods-FilmApiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

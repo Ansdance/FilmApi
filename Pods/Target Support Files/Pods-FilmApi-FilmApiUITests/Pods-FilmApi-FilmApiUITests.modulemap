@@ -1,0 +1,6 @@
+framework module Pods_FilmApi_FilmApiUITests {
+  umbrella header "Pods-FilmApi-FilmApiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

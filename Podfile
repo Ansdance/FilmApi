@@ -10,6 +10,7 @@ target 'FilmApi' do
   pod 'SVProgressHUD'
   pod 'SDWebImage'
   pod 'SwiftyJSON'
+  pod 'Kingfisher'
 
   target 'FilmApiTests' do
     inherit! :search_paths

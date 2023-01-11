@@ -15,7 +15,7 @@ class FilmsTableViewController: UITableViewController, UISearchBarDelegate {
     @IBOutlet weak var searchbar: UISearchBar!
     
     
-    var filmsArray : [EntityFilms] = []
+    var filmsArray : [EntityFilm] = []
     
     
     override func viewDidLoad() {
@@ -61,7 +61,7 @@ class FilmsTableViewController: UITableViewController, UISearchBarDelegate {
                 
                 if let array = json["results"].array {
                     for item in array {
-                        let film = EntityFilms(json: item)
+                        let film = EntityFilm(json: item)
                         self.filmsArray.append(film)
                     }
                 }

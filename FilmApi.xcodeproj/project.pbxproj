@@ -9,18 +9,21 @@
 /* Begin PBXBuildFile section */
 		2098749761724EEE5A805F4F /* Pods_FilmApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFCBFBFB55412E594847E34 /* Pods_FilmApi.framework */; };
 		7357F68F8757C759B245FC06 /* Pods_FilmApiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF22F10A565522C7CCF1E4B2 /* Pods_FilmApiTests.framework */; };
+		8060B4BF296DBD0A00310A42 /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060B4BE296DBD0A00310A42 /* PopularViewController.swift */; };
+		8060B4C3296DBE7D00310A42 /* PopularTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060B4C2296DBE7D00310A42 /* PopularTableViewCell.swift */; };
+		8073ACAC296D9228006C543A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8073ACAB296D9228006C543A /* TableViewCell.swift */; };
+		80D9EC3E296AB8490021445E /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 80D9EC3D296AB8490021445E /* Algorithms */; };
+		80E1AD4E296DC47C00CDA3DB /* EntityPopular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E1AD4D296DC47C00CDA3DB /* EntityPopular.swift */; };
 		80EDC41229102BB600646F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC41129102BB600646F1F /* AppDelegate.swift */; };
 		80EDC41429102BB600646F1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC41329102BB600646F1F /* SceneDelegate.swift */; };
-		80EDC41629102BB600646F1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC41529102BB600646F1F /* ViewController.swift */; };
+		80EDC41629102BB600646F1F /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC41529102BB600646F1F /* FilmsViewController.swift */; };
 		80EDC41929102BB600646F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EDC41729102BB600646F1F /* Main.storyboard */; };
 		80EDC41B29102BB700646F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80EDC41A29102BB700646F1F /* Assets.xcassets */; };
 		80EDC41E29102BB700646F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EDC41C29102BB700646F1F /* LaunchScreen.storyboard */; };
 		80EDC42929102BB700646F1F /* FilmApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC42829102BB700646F1F /* FilmApiTests.swift */; };
 		80EDC43329102BB700646F1F /* FilmApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC43229102BB700646F1F /* FilmApiUITests.swift */; };
 		80EDC43529102BB700646F1F /* FilmApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC43429102BB700646F1F /* FilmApiUITestsLaunchTests.swift */; };
-		80EDC44229102C2100646F1F /* FilmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC44129102C2100646F1F /* FilmsTableViewController.swift */; };
-		80EDC44429102C8900646F1F /* EntityFilms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC44329102C8900646F1F /* EntityFilms.swift */; };
-		80EDC44629102CF600646F1F /* FilmsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC44529102CF600646F1F /* FilmsTableViewCell.swift */; };
+		80EDC44429102C8900646F1F /* EntityFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC44329102C8900646F1F /* EntityFilm.swift */; };
 		972871EA6B8ED1124716FDB8 /* Pods_FilmApi_FilmApiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6758687DE558C55EFCF4F391 /* Pods_FilmApi_FilmApiUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,10 +50,14 @@
 		758DB8B788BC7CA041B9BE71 /* Pods-FilmApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmApi.release.xcconfig"; path = "Target Support Files/Pods-FilmApi/Pods-FilmApi.release.xcconfig"; sourceTree = "<group>"; };
 		78DCE07815B871AE8775E487 /* Pods-FilmApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmApi.debug.xcconfig"; path = "Target Support Files/Pods-FilmApi/Pods-FilmApi.debug.xcconfig"; sourceTree = "<group>"; };
 		7AFCBFBFB55412E594847E34 /* Pods_FilmApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilmApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8060B4BE296DBD0A00310A42 /* PopularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		8060B4C2296DBE7D00310A42 /* PopularTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularTableViewCell.swift; sourceTree = "<group>"; };
+		8073ACAB296D9228006C543A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		80E1AD4D296DC47C00CDA3DB /* EntityPopular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityPopular.swift; sourceTree = "<group>"; };
 		80EDC40E29102BB600646F1F /* FilmApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EDC41129102BB600646F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80EDC41329102BB600646F1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80EDC41529102BB600646F1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80EDC41529102BB600646F1F /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
 		80EDC41829102BB600646F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80EDC41A29102BB700646F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80EDC41D29102BB700646F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,9 +67,7 @@
 		80EDC42E29102BB700646F1F /* FilmApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EDC43229102BB700646F1F /* FilmApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmApiUITests.swift; sourceTree = "<group>"; };
 		80EDC43429102BB700646F1F /* FilmApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		80EDC44129102C2100646F1F /* FilmsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsTableViewController.swift; sourceTree = "<group>"; };
-		80EDC44329102C8900646F1F /* EntityFilms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityFilms.swift; sourceTree = "<group>"; };
-		80EDC44529102CF600646F1F /* FilmsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsTableViewCell.swift; sourceTree = "<group>"; };
+		80EDC44329102C8900646F1F /* EntityFilm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityFilm.swift; sourceTree = "<group>"; };
 		AF22F10A565522C7CCF1E4B2 /* Pods_FilmApiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilmApiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B741E09165928E816049A3 /* Pods-FilmApi-FilmApiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmApi-FilmApiUITests.debug.xcconfig"; path = "Target Support Files/Pods-FilmApi-FilmApiUITests/Pods-FilmApi-FilmApiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C666879F03946366770C65EE /* Pods-FilmApiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmApiTests.release.xcconfig"; path = "Target Support Files/Pods-FilmApiTests/Pods-FilmApiTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D9EC3E296AB8490021445E /* Algorithms in Frameworks */,
 				2098749761724EEE5A805F4F /* Pods_FilmApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,7 +113,6 @@
 				FE12E6A453895276FD74E56F /* Pods-FilmApiTests.debug.xcconfig */,
 				C666879F03946366770C65EE /* Pods-FilmApiTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -115,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				80EDC41029102BB600646F1F /* FilmApi */,
-				80EDC42729102BB700646F1F /* FilmApiTests */,
 				80EDC43129102BB700646F1F /* FilmApiUITests */,
 				80EDC40F29102BB600646F1F /* Products */,
 				775BCA68ED9AC1D4FA31CDCF /* Pods */,
@@ -138,14 +142,17 @@
 			children = (
 				80EDC41129102BB600646F1F /* AppDelegate.swift */,
 				80EDC41329102BB600646F1F /* SceneDelegate.swift */,
-				80EDC41529102BB600646F1F /* ViewController.swift */,
-				80EDC44529102CF600646F1F /* FilmsTableViewCell.swift */,
+				80EDC41529102BB600646F1F /* FilmsViewController.swift */,
+				8060B4BE296DBD0A00310A42 /* PopularViewController.swift */,
+				8073ACAB296D9228006C543A /* TableViewCell.swift */,
+				8060B4C2296DBE7D00310A42 /* PopularTableViewCell.swift */,
 				80EDC41729102BB600646F1F /* Main.storyboard */,
-				80EDC44129102C2100646F1F /* FilmsTableViewController.swift */,
-				80EDC44329102C8900646F1F /* EntityFilms.swift */,
-				80EDC41A29102BB700646F1F /* Assets.xcassets */,
+				80EDC44329102C8900646F1F /* EntityFilm.swift */,
+				80E1AD4D296DC47C00CDA3DB /* EntityPopular.swift */,
+				80EDC42729102BB700646F1F /* FilmApiTests */,
 				80EDC41C29102BB700646F1F /* LaunchScreen.storyboard */,
 				80EDC41F29102BB700646F1F /* Info.plist */,
+				80EDC41A29102BB700646F1F /* Assets.xcassets */,
 			);
 			path = FilmApi;
 			sourceTree = "<group>";
@@ -195,6 +202,9 @@
 			dependencies = (
 			);
 			name = FilmApi;
+			packageProductDependencies = (
+				80D9EC3D296AB8490021445E /* Algorithms */,
+			);
 			productName = FilmApi;
 			productReference = 80EDC40E29102BB600646F1F /* FilmApi.app */;
 			productType = "com.apple.product-type.application";
@@ -270,6 +280,9 @@
 				Base,
 			);
 			mainGroup = 80EDC40529102BB600646F1F;
+			packageReferences = (
+				80D9EC3C296AB8490021445E /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = 80EDC40F29102BB600646F1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -416,12 +429,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80EDC41629102BB600646F1F /* ViewController.swift in Sources */,
-				80EDC44629102CF600646F1F /* FilmsTableViewCell.swift in Sources */,
+				8060B4BF296DBD0A00310A42 /* PopularViewController.swift in Sources */,
+				80EDC41629102BB600646F1F /* FilmsViewController.swift in Sources */,
 				80EDC41229102BB600646F1F /* AppDelegate.swift in Sources */,
 				80EDC41429102BB600646F1F /* SceneDelegate.swift in Sources */,
-				80EDC44429102C8900646F1F /* EntityFilms.swift in Sources */,
-				80EDC44229102C2100646F1F /* FilmsTableViewController.swift in Sources */,
+				8060B4C3296DBE7D00310A42 /* PopularTableViewCell.swift in Sources */,
+				8073ACAC296D9228006C543A /* TableViewCell.swift in Sources */,
+				80E1AD4E296DC47C00CDA3DB /* EntityPopular.swift in Sources */,
+				80EDC44429102C8900646F1F /* EntityFilm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -763,6 +778,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80D9EC3C296AB8490021445E /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80D9EC3D296AB8490021445E /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80D9EC3C296AB8490021445E /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 80EDC40629102BB600646F1F /* Project object */;
 }

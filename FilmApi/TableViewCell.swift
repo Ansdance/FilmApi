@@ -1,14 +1,16 @@
 //
-//  FilmsTableViewCell.swift
+//  TableViewCell.swift
 //  FilmApi
 //
-//  Created by ANSAR DAULETBAYEV on 31.10.2022.
+//  Created by ANSAR DAULETBAYEV on 10.01.2023.
 //
 
 import UIKit
 import SDWebImage
 
+
 class FilmsTableViewCell: UITableViewCell {
+
     @IBOutlet weak var image_poster_path: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var overviewLabel: UILabel!
@@ -31,5 +33,5 @@ class FilmsTableViewCell: UITableViewCell {
         image_poster_path.sd_setImage(with: URL(string: film.poster_path), completed: nil)
         image_poster_path.layer.cornerRadius = 55
     }
-
+    
 }

@@ -1,15 +1,14 @@
 //
-//  EntityFilms.swift
+//  EntityPopular.swift
 //  FilmApi
 //
-//  Created by ANSAR DAULETBAYEV on 31.10.2022.
+//  Created by ANSAR DAULETBAYEV on 10.01.2023.
 //
 
 import Foundation
 import SwiftyJSON
 
-
-struct EntityFilms {
+struct EntityPopular {
     
     var title = ""
     var poster_path = ""

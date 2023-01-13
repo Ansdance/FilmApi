@@ -14,6 +14,7 @@
 		8073ACAC296D9228006C543A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8073ACAB296D9228006C543A /* TableViewCell.swift */; };
 		80D9EC3E296AB8490021445E /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 80D9EC3D296AB8490021445E /* Algorithms */; };
 		80E1AD4E296DC47C00CDA3DB /* EntityPopular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E1AD4D296DC47C00CDA3DB /* EntityPopular.swift */; };
+		80E1AD5029716EA100CDA3DB /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E1AD4F29716EA100CDA3DB /* PopularCollectionViewCell.swift */; };
 		80EDC41229102BB600646F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC41129102BB600646F1F /* AppDelegate.swift */; };
 		80EDC41429102BB600646F1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC41329102BB600646F1F /* SceneDelegate.swift */; };
 		80EDC41629102BB600646F1F /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC41529102BB600646F1F /* FilmsViewController.swift */; };
@@ -54,6 +55,7 @@
 		8060B4C2296DBE7D00310A42 /* PopularTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularTableViewCell.swift; sourceTree = "<group>"; };
 		8073ACAB296D9228006C543A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		80E1AD4D296DC47C00CDA3DB /* EntityPopular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityPopular.swift; sourceTree = "<group>"; };
+		80E1AD4F29716EA100CDA3DB /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
 		80EDC40E29102BB600646F1F /* FilmApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EDC41129102BB600646F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80EDC41329102BB600646F1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				8060B4BE296DBD0A00310A42 /* PopularViewController.swift */,
 				8073ACAB296D9228006C543A /* TableViewCell.swift */,
 				8060B4C2296DBE7D00310A42 /* PopularTableViewCell.swift */,
+				80E1AD4F29716EA100CDA3DB /* PopularCollectionViewCell.swift */,
 				80EDC41729102BB600646F1F /* Main.storyboard */,
 				80EDC44329102C8900646F1F /* EntityFilm.swift */,
 				80E1AD4D296DC47C00CDA3DB /* EntityPopular.swift */,
@@ -435,6 +438,7 @@
 				80EDC41429102BB600646F1F /* SceneDelegate.swift in Sources */,
 				8060B4C3296DBE7D00310A42 /* PopularTableViewCell.swift in Sources */,
 				8073ACAC296D9228006C543A /* TableViewCell.swift in Sources */,
+				80E1AD5029716EA100CDA3DB /* PopularCollectionViewCell.swift in Sources */,
 				80E1AD4E296DC47C00CDA3DB /* EntityPopular.swift in Sources */,
 				80EDC44429102C8900646F1F /* EntityFilm.swift in Sources */,
 			);

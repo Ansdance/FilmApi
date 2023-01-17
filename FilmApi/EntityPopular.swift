@@ -31,7 +31,7 @@ struct EntityPopular {
 //        }
 //        if let item = json["vote_average"].string {
 //            vote_average = item
-//        }
+//        } //
         
     }
 }

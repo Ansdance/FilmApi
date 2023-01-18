@@ -12,7 +12,7 @@ import SVProgressHUD
 
 class PopularViewController: UIViewController, UISearchBarDelegate, UICollectionViewDelegate {
     
-    @IBOutlet var popularCollectionView: UICollectionView!
+    @IBOutlet var popularCollectionView: UICollectionView! 
     
     private var popularArray : [EntityPopular] = []
     var current_page = 1
@@ -22,6 +22,7 @@ class PopularViewController: UIViewController, UISearchBarDelegate, UICollection
         super.viewDidLoad()
         self.popularCollectionView.delegate = self
         self.popularCollectionView.dataSource = self
+        popularCollectionView.collectionViewLayout = UICollectionViewFlowLayout()
                 //Register cell
         self.popularCollectionView.register(UINib(nibName: "PopularViewController", bundle: nil), forCellWithReuseIdentifier: "PopularViewController")
                 //
@@ -74,20 +75,21 @@ extension PopularViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionViewCell", for: indexPath) as! PopularCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PopularCollectionViewCell", for: indexPath) as! PopularCollectionViewCell
         cell.setDataPop(film: popularArray[indexPath.row])
         return cell
     }
-    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        if current_page < total_page && indexPath.row == popularArray.count - 1 {
-            current_page = current_page + 1
-            searchFilms(page: current_page)
-        }
+//
+//
+//    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+//        return 179
+//    }
+}
+   
+extension PopularViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: 100, height: 200)
     }
-    
-        func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-            return 179
-        }
 }
 
 

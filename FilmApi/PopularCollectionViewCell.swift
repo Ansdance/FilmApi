@@ -10,8 +10,9 @@ import UIKit
 class PopularCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var popularImageCell: UIImageView!
+    
     @IBOutlet weak var popularLabelCell: UILabel!
-        
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }

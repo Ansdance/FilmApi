@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Popular Films-->
         <scene sceneID="ibC-D3-PvV">
             <objects>
                 <viewController id="Ijr-LY-84f" customClass="PopularViewController" customModule="FilmApi" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,9 +18,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="s1r-6o-eyO">
-                                <rect key="frame" x="0.0" y="47" width="390" height="714"/>
+                                <rect key="frame" x="0.0" y="90" width="390" height="671"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zGj-je-SIa">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zGj-je-SIa">
                                     <size key="itemSize" width="171" height="235"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -65,24 +65,49 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="1xd-Pk-wN7">
+                                <rect key="frame" x="82" y="47" width="226" height="26"/>
+                                <color key="pageIndicatorTintColor" systemColor="systemPurpleColor"/>
+                                <color key="currentPageIndicatorTintColor" systemColor="systemYellowColor"/>
+                            </pageControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UrD-j3-Wih"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="1xd-Pk-wN7" firstAttribute="leading" secondItem="UrD-j3-Wih" secondAttribute="leading" constant="82" id="1Zn-yp-nj5"/>
                             <constraint firstItem="UrD-j3-Wih" firstAttribute="trailing" secondItem="s1r-6o-eyO" secondAttribute="trailing" id="4aq-wY-xdA"/>
-                            <constraint firstItem="s1r-6o-eyO" firstAttribute="top" secondItem="UrD-j3-Wih" secondAttribute="top" id="88W-we-vGB"/>
+                            <constraint firstItem="1xd-Pk-wN7" firstAttribute="top" secondItem="UrD-j3-Wih" secondAttribute="top" id="AV7-mC-aL8"/>
+                            <constraint firstItem="UrD-j3-Wih" firstAttribute="trailing" secondItem="1xd-Pk-wN7" secondAttribute="trailing" constant="82" id="Hxn-ky-abf"/>
                             <constraint firstItem="UrD-j3-Wih" firstAttribute="bottom" secondItem="s1r-6o-eyO" secondAttribute="bottom" id="Vd1-k1-vET"/>
+                            <constraint firstItem="s1r-6o-eyO" firstAttribute="top" secondItem="1xd-Pk-wN7" secondAttribute="bottom" constant="17" id="gCM-aB-hyH"/>
                             <constraint firstItem="s1r-6o-eyO" firstAttribute="leading" secondItem="UrD-j3-Wih" secondAttribute="leading" id="o2t-B1-N6Q"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="vHd-WW-QNB"/>
+                    <tabBarItem key="tabBarItem" title="Popular Films" id="vHd-WW-QNB"/>
                     <connections>
+                        <outlet property="pageCollectionView" destination="1xd-Pk-wN7" id="u20-ph-HuG"/>
                         <outlet property="popularCollectionView" destination="s1r-6o-eyO" id="jDf-QR-R1c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B1F-yN-y8h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-766.15384615384608" y="231.75355450236967"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="dNU-uh-d1l">
+            <objects>
+                <viewController id="xTh-hD-22w" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l84-1Y-SG6">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ddl-xa-npz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="BAs-AA-Czv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IEO-FV-FZ2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1125" y="934"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="IqO-Ep-mps">
@@ -181,11 +206,11 @@
             </objects>
             <point key="canvasLocation" x="-766.15384615384608" y="-422.27488151658764"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Custom Tab Bar-->
         <scene sceneID="ycx-TE-g1h">
             <objects>
-                <tabBarController id="HTG-Tr-Wvb" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fkh-dM-lqB">
+                <tabBarController id="HTG-Tr-Wvb" customClass="CustomTabBar" customModule="FilmApi" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fkh-dM-lqB" customClass="TabBarVC" customModule="FilmApi" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -193,6 +218,7 @@
                     <connections>
                         <segue destination="yvP-VK-Ap7" kind="relationship" relationship="viewControllers" id="zUR-mc-4TO"/>
                         <segue destination="Ijr-LY-84f" kind="relationship" relationship="viewControllers" id="oP5-xE-De7"/>
+                        <segue destination="xTh-hD-22w" kind="relationship" relationship="viewControllers" id="R16-Ma-MLm"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aGZ-GP-0Pm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -203,6 +229,12 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

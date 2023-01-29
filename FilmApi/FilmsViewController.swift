@@ -36,7 +36,7 @@ final class FilmsViewController: UIViewController, UISearchBarDelegate {
     }
     
     private func searchFilms(query: String){
-
+        
         let parameters = ["api_key": "7de5f8b7cc960d1fb3bd9603ed5accf1",
                           "language" : "ru-RU",
                           "query": query,

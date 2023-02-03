@@ -10,11 +10,13 @@ import Alamofire
 import SwiftyJSON
 import SVProgressHUD
 
-final class FilmsViewController: UIViewController, UISearchBarDelegate {
+final class FilmsViewController: UIViewController, UISearchBarDelegate, ModelDelegate {
     
     @IBOutlet private weak var searchbar: UISearchBar!
     
     @IBOutlet private weak var tableView: UITableView!
+    
+    var model = Model()
     
     private var filmsArray : [EntityFilm] = []
     
@@ -30,27 +32,32 @@ final class FilmsViewController: UIViewController, UISearchBarDelegate {
         //Register cell
         self.tableView.register(UINib(nibName: "FilmsTableViewCell", bundle: nil), forCellReuseIdentifier: "FilmsTableViewCell")
         self.searchbar.delegate = self
+//        configureViews()
         searchbar.placeholder = "Search films"
-        //
-        searchFilms(query: "Jackie Chan")
+        
+        
+        searchFilms(query: Constants.NAME_OF_SEARCHING_FIRST)
+//        let dataS = model.searchFilms(query: "Jackie Chan", tableView: tableView)
+//        self.filmsArray = dataS
+    }
+    
+    func filmsFetched(_ films: [EntityFilm]) {
+        self.filmsArray = films
+        
+        // Refresh the tableview
+        tableView.reloadData()
     }
     
     private func searchFilms(query: String){
         
-        let parameters = ["api_key": "7de5f8b7cc960d1fb3bd9603ed5accf1",
+        let parameters = ["api_key": Constants.API_KEY,
                           "language" : "ru-RU",
                           "query": query,
                           "page" : 1,
                           "region": "ru",
                           "include_adult": false
         ] as [String : Any]
-        AF.request("https://api.themoviedb.org/3/search/movie?", method: .get,
-                   //        let parameters = ["api_key": "7de5f8b7cc960d1fb3bd9603ed5accf1",
-                   //                          "language" : "ru-RU",
-                   //                          "page" : 1,
-                   //                          "region": "ru"
-                   //                          ] as [String : Any]
-                   //        AF.request("https://api.themoviedb.org/3/movie/popular?", method: .get,
+        AF.request(Constants.URL_MOVIE, method: .get,
                    parameters: parameters).responseData {
             responce in
             var resultString = ""
@@ -66,8 +73,8 @@ final class FilmsViewController: UIViewController, UISearchBarDelegate {
                         let film = EntityFilm(json: item)
                         self.filmsArray.append(film)
                     }
+                    self.tableView.reloadData()
                 }
-                self.tableView.reloadData()
             }
         }
     }
@@ -75,6 +82,7 @@ final class FilmsViewController: UIViewController, UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         filmsArray.removeAll()
         tableView.reloadData()
+//        model.searchFilms(query: searchBar.text!, tableView: tableView)
         searchFilms(query: searchBar.text!)
     }
 }
@@ -96,7 +104,7 @@ extension FilmsViewController: UITableViewDataSource {
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell =  tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? FilmsTableViewCell {
+        if let cell =  tableView.dequeueReusableCell(withIdentifier: "FilmCell", for: indexPath) as? FilmsTableViewCell {
             
             // Configure the cell...
             cell.setData(film: filmsArray[indexPath.row])
@@ -106,7 +114,7 @@ extension FilmsViewController: UITableViewDataSource {
             return UITableViewCell()
 }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 179
+        return 153
     }
 }
 

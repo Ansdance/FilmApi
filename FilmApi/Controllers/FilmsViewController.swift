@@ -18,9 +18,7 @@ final class FilmsViewController: UIViewController, UISearchBarDelegate, ModelDel
     
     var model = Model()
     
-    private var filmsArray : [EntityFilm] = []
-    
-    private let url = "https://api.themoviedb.org/3/search/movie?"
+    private var filmsArray : [Movie] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,16 +30,27 @@ final class FilmsViewController: UIViewController, UISearchBarDelegate, ModelDel
         //Register cell
         self.tableView.register(UINib(nibName: "FilmsTableViewCell", bundle: nil), forCellReuseIdentifier: "FilmsTableViewCell")
         self.searchbar.delegate = self
-//        configureViews()
+        //        configureViews()
         searchbar.placeholder = "Search films"
         
         
         searchFilms(query: Constants.NAME_OF_SEARCHING_FIRST)
-//        let dataS = model.searchFilms(query: "Jackie Chan", tableView: tableView)
-//        self.filmsArray = dataS
+        //        let dataS = model.searchFilms(query: "Jackie Chan", tableView: tableView)
+        //        self.filmsArray = dataS
     }
     
-    func filmsFetched(_ films: [EntityFilm]) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard tableView.indexPathForSelectedRow != nil else {
+            return
+        }
+        let selectedCell = filmsArray[tableView.indexPathForSelectedRow!.row]
+        
+        let detailVC = segue.destination as! MovieInfoViewController
+        
+        detailVC.movie = selectedCell
+    }
+    
+    func filmsFetched(_ films: [Movie]) {
         self.filmsArray = films
         
         // Refresh the tableview
@@ -49,6 +58,7 @@ final class FilmsViewController: UIViewController, UISearchBarDelegate, ModelDel
     }
     
     private func searchFilms(query: String){
+        //        SVProgressHUD.show()
         
         let parameters = ["api_key": Constants.API_KEY,
                           "language" : "ru-RU",
@@ -60,17 +70,20 @@ final class FilmsViewController: UIViewController, UISearchBarDelegate, ModelDel
         AF.request(Constants.URL_MOVIE, method: .get,
                    parameters: parameters).responseData {
             responce in
+            
+            //            SVProgressHUD.dismiss()
+            //            do {
             var resultString = ""
             if let data = responce.data {
                 resultString = String(data: data, encoding: .utf8)!
-                print(resultString)
+                //                print(resultString)
             }
             if responce.response?.statusCode == 200 {
                 let json = JSON(responce.data!)
-
+                
                 if let array = json["results"].array {
                     for item in array {
-                        let film = EntityFilm(json: item)
+                        let film = Movie(json: item)
                         self.filmsArray.append(film)
                     }
                     self.tableView.reloadData()
@@ -82,7 +95,7 @@ final class FilmsViewController: UIViewController, UISearchBarDelegate, ModelDel
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         filmsArray.removeAll()
         tableView.reloadData()
-//        model.searchFilms(query: searchBar.text!, tableView: tableView)
+        //        model.searchFilms(query: searchBar.text!, tableView: tableView)
         searchFilms(query: searchBar.text!)
     }
 }
@@ -109,10 +122,10 @@ extension FilmsViewController: UITableViewDataSource {
             // Configure the cell...
             cell.setData(film: filmsArray[indexPath.row])
             
-                return cell
+            return cell
+        }
+        return UITableViewCell()
     }
-            return UITableViewCell()
-}
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 153
     }

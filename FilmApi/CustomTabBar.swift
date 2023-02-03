@@ -22,7 +22,7 @@ class CustomTabBar: UITabBarController, UITabBarControllerDelegate {
     func setupMiddleButton(){
         let middleButton = UIButton(frame:  CGRect(x: (self.view.bounds.width / 2) - 25, y: -20 , width: 60, height: 60))
  
-        middleButton.setBackgroundImage(UIImage(named: "Home_selected"), for: .normal)
+        middleButton.setBackgroundImage(UIImage(named: "HomeSelected"), for: .normal)
         middleButton.layer.shadowColor = UIColor.black.cgColor
         middleButton.layer.shadowOpacity = 0.1
         middleButton.layer.shadowOffset = CGSize(width: 4, height: 4)

@@ -10,16 +10,16 @@ import Alamofire
 import SwiftyJSON
 
 protocol ModelDelegate {
-    func filmsFetched(_ films:[EntityFilm])
+    func filmsFetched(_ films:[Movie])
 }
 
 
 class Model {
     
     var delegate:ModelDelegate?
-    private var filmsArray : [EntityFilm] = []
+    private var filmsArray : [Movie] = []
     
-    func searchFilms(query: String, tableView: UITableView) -> [EntityFilm]{
+    func searchFilms(query: String, tableView: UITableView) -> [Movie]{
         
         let parameters = ["api_key": "7de5f8b7cc960d1fb3bd9603ed5accf1",
                           "language" : "ru-RU",
@@ -41,7 +41,7 @@ class Model {
                 
                 if let array = json["results"].array {
                     for item in array {
-                        let film = EntityFilm(json: item)
+                        let film = Movie(json: item)
                         self.filmsArray.append(film)
                     }
                 }

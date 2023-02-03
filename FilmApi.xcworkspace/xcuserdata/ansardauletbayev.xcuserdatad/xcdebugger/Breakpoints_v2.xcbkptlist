@@ -36,5 +36,657 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59997652-03EA-42F1-B079-AC3EF1460CC9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Controllers/MovieInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "playMovie(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78468FEA-D80F-4749-837B-919F05C14747"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/MoviePlayer/MoviePlayerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDEACF9E-9F15-4F07-B779-A86716C327C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Model/Video.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "init(json:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DDEACF9E-9F15-4F07-B779-A86716C327C2 - b0cd17c59921d5ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.Video.init(json: SwiftyJSON.JSON) -&gt; FilmApi.Video"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/Model/Video.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "DDEACF9E-9F15-4F07-B779-A86716C327C2 - b0cd17c59921d5ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.Video.init(json: SwiftyJSON.JSON) -&gt; FilmApi.Video"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/Model/Video.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "556">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BA5F203-9EC6-4D74-A327-FED7D98B9915"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Model/Video.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init(json:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4BA5F203-9EC6-4D74-A327-FED7D98B9915 - b0cd17c59921d228"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.Video.init(json: SwiftyJSON.JSON) -&gt; FilmApi.Video"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/Model/Video.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "4BA5F203-9EC6-4D74-A327-FED7D98B9915 - b0cd17c59921d228"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.Video.init(json: SwiftyJSON.JSON) -&gt; FilmApi.Video"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/Model/Video.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3967D019-0551-4502-A6A7-BCE5B736CAF6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Controllers/MovieInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "downloadVideo()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3967D019-0551-4502-A6A7-BCE5B736CAF6 - 45852ed1595bf7fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in FilmApi.MovieInfoViewController.downloadVideo() -&gt; ()"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/Controllers/MovieInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "648">
+               </Location>
+               <Location
+                  uuid = "3967D019-0551-4502-A6A7-BCE5B736CAF6 - 45852ed1595bf7fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in FilmApi.MovieInfoViewController.downloadVideo() -&gt; ()"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/Controllers/MovieInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "736">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1275CDDF-1251-4FBA-B2D6-CC8FD3B0994E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Controllers/MovieInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "downloadVideo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6AB50B7-AECF-446E-AEC5-53C2450B7856"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Controllers/MovieInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "downloadVideo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57FB846C-681C-4F09-A8F0-F6D7BA97EFB9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Controllers/MovieInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "downloadVideo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF183157-FC2E-4454-92DB-D3DE418F1157"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Controllers/MovieInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "downloadVideo()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CF183157-FC2E-4454-92DB-D3DE418F1157 - 45852ed1595bf6d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in FilmApi.MovieInfoViewController.downloadVideo() -&gt; ()"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/Controllers/MovieInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "1840">
+               </Location>
+               <Location
+                  uuid = "CF183157-FC2E-4454-92DB-D3DE418F1157 - 45852ed1595bf6d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in FilmApi.MovieInfoViewController.downloadVideo() -&gt; ()"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/Controllers/MovieInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "2000">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BA883C1-C7C9-4CE5-B1E5-76F659DC961A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Controllers/MovieInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "downloadVideo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92B0424A-F5F9-461A-B4D7-5C0C5FB5061B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Controllers/MovieInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "downloadVideo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7341F6B-1A97-4110-BA82-07069A1A59E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Controllers/MovieInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "downloadVideo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F463A110-2005-4CD9-95D7-440F9D85A44A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Model/VideoResults.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "init(json:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F463A110-2005-4CD9-95D7-440F9D85A44A - ea9dd869fe6515c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.VideoResults.init(json: SwiftyJSON.JSON) -&gt; FilmApi.VideoResults"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/Model/VideoResults.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "F463A110-2005-4CD9-95D7-440F9D85A44A - ea9dd869fe6515c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.VideoResults.init(json: SwiftyJSON.JSON) -&gt; FilmApi.VideoResults"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/Model/VideoResults.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "512">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1FCA2F20-6086-4AF5-8B63-081B7825B508"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Model/VideoResults.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "init(json:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1FCA2F20-6086-4AF5-8B63-081B7825B508 - ea9dd869fe6536d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.VideoResults.init(json: SwiftyJSON.JSON) -&gt; FilmApi.VideoResults"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/Model/VideoResults.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1964">
+               </Location>
+               <Location
+                  uuid = "1FCA2F20-6086-4AF5-8B63-081B7825B508 - ea9dd869fe6536d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.VideoResults.init(json: SwiftyJSON.JSON) -&gt; FilmApi.VideoResults"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/Model/VideoResults.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "2116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B607007-87B6-4A04-AEB7-6E4A1119AE50"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Model/VideoResults.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "init(json:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B607007-87B6-4A04-AEB7-6E4A1119AE50 - ea9dd869fe652f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.VideoResults.init(json: SwiftyJSON.JSON) -&gt; FilmApi.VideoResults"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/Model/VideoResults.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "672">
+               </Location>
+               <Location
+                  uuid = "5B607007-87B6-4A04-AEB7-6E4A1119AE50 - ea9dd869fe652f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.VideoResults.init(json: SwiftyJSON.JSON) -&gt; FilmApi.VideoResults"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/Model/VideoResults.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "824">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7B54FA8-5A4B-43BB-88C2-0C7D18BF92EF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Controllers/MovieInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "downloadVideo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C344B6B5-8DAE-41F3-8EA0-DD9ED30FAC32"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Controllers/MovieInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "downloadVideo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAA74EF8-235B-4D41-B554-1AA40AA0A661"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Controllers/MovieInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "playMovie(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DF2E7DC-5A9C-448D-8807-83FA55819084"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/Controllers/MovieInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "playMovie(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26CAB6FC-6552-40D7-8D11-DE50FD2B3912"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/MoviePlayer/MoviePlayerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "MoviePlayerViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "26CAB6FC-6552-40D7-8D11-DE50FD2B3912 - 3c35a6b052d11f5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.MoviePlayerViewController.video_link.getter : Swift.String"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/MoviePlayer/MoviePlayerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "26CAB6FC-6552-40D7-8D11-DE50FD2B3912 - e23d76d8f64def96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.MoviePlayerViewController.video_link.setter : Swift.String"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/MoviePlayer/MoviePlayerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "26CAB6FC-6552-40D7-8D11-DE50FD2B3912 - 9b00f257c857b29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.MoviePlayerViewController.video_link.modify : Swift.String"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/MoviePlayer/MoviePlayerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "26CAB6FC-6552-40D7-8D11-DE50FD2B3912 - 5ac16e259e9deef9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.MoviePlayerViewController.video_link.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/MoviePlayer/MoviePlayerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "26CAB6FC-6552-40D7-8D11-DE50FD2B3912 - 5b372dd2d087b53f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.MoviePlayerViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FilmApi.MoviePlayerViewController"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/MoviePlayer/MoviePlayerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "26CAB6FC-6552-40D7-8D11-DE50FD2B3912 - 5d3b8101864dbf9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilmApi.MoviePlayerViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FilmApi.MoviePlayerViewController&gt;"
+                  moduleName = "FilmApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ansardauletbayev/Documents/Projects/IOSnew/FilmApi/FilmApi/MoviePlayer/MoviePlayerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28136A9F-E304-485A-BE1C-28E76FF5C5D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilmApi/MoviePlayer/MoviePlayerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -27,7 +27,7 @@ class FilmsTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    func setData(film: EntityFilm) {
+    func setData(film: Movie) {
         titleLabel.text = film.title
         overviewLabel.text = film.overview
 //        raitingLabel.text = film.vote_average

@@ -1,30 +1,43 @@
 PODS:
   - Alamofire (5.6.2)
+  - Localize-Swift (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore (= 3.2.0)
+    - Localize-Swift/UIKit (= 3.2.0)
+  - Localize-Swift/LocalizeSwiftCore (3.2.0)
+  - Localize-Swift/UIKit (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore
   - SDWebImage (5.13.4):
     - SDWebImage/Core (= 5.13.4)
   - SDWebImage/Core (5.13.4)
   - SVProgressHUD (2.2.5)
-  - SwiftyJSON (5.0.1)
+  - SwiftyJSON (4.3.0)
+  - YouTubePlayer (0.7.2)
 
 DEPENDENCIES:
-  - Alamofire
-  - SDWebImage
+  - Alamofire (~> 5.5)
+  - Localize-Swift (~> 3.2)
+  - SDWebImage (~> 5.0)
   - SVProgressHUD
-  - SwiftyJSON
+  - SwiftyJSON (~> 4.0)
+  - YouTubePlayer
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Localize-Swift
     - SDWebImage
     - SVProgressHUD
     - SwiftyJSON
+    - YouTubePlayer
 
 SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
   SDWebImage: e5cc87bf736e60f49592f307bdf9e157189298a3
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  YouTubePlayer: 2b5f2830d8f9b2cde942083211291e382c9e6bd5
 
-PODFILE CHECKSUM: 30c884b6dc7089c7b912561814f30a48f0a52b04
+PODFILE CHECKSUM: 865a32e47662a6567e61140ba7ab6f1a9f70c6cf
 
 COCOAPODS: 1.11.3

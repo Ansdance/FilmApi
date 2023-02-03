@@ -6,11 +6,12 @@ target 'FilmApi' do
   use_frameworks!
 
   # Pods for FilmApi
-  pod 'Alamofire'
+  pod 'Alamofire', '~> 5.5'
   pod 'SVProgressHUD'
-  pod 'SDWebImage'
-  pod 'SwiftyJSON'
-  pod 'Kingfisher'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'Localize-Swift', '~> 3.2'
+  pod 'YouTubePlayer'
 
   target 'FilmApiTests' do
     inherit! :search_paths

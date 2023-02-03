@@ -12,13 +12,17 @@
 		8013904E2977DDD000EB8FB4 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8013904D2977DDD000EB8FB4 /* CustomTabBar.swift */; };
 		8013905029793F0E00EB8FB4 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8013904F29793F0E00EB8FB4 /* TabBarVC.swift */; };
 		8060B4BF296DBD0A00310A42 /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060B4BE296DBD0A00310A42 /* PopularViewController.swift */; };
+		80A10CA0298D879E009418E9 /* VideoResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A10C9F298D879E009418E9 /* VideoResults.swift */; };
+		80A5F2F9298D04980005BB78 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5F2F8298D04980005BB78 /* Video.swift */; };
+		80A5F2FB298D59980005BB78 /* MovieInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5F2FA298D59980005BB78 /* MovieInfoViewController.swift */; };
+		80A5F300298D5D3D0005BB78 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5F2FF298D5D3D0005BB78 /* Label.swift */; };
+		80A5F303298D67D00005BB78 /* MoviePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5F302298D67D00005BB78 /* MoviePlayerViewController.swift */; };
 		80D9EC3E296AB8490021445E /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 80D9EC3D296AB8490021445E /* Algorithms */; };
 		80E1AD4E296DC47C00CDA3DB /* EntityPopular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E1AD4D296DC47C00CDA3DB /* EntityPopular.swift */; };
 		80E1AD5029716EA100CDA3DB /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E1AD4F29716EA100CDA3DB /* PopularCollectionViewCell.swift */; };
 		80E9B4F2298CEADE006AE86C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9B4F1298CEADE006AE86C /* Model.swift */; };
 		80E9B4F4298CF34E006AE86C /* FilmsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9B4F3298CF34E006AE86C /* FilmsTableViewCell.swift */; };
 		80E9B4F8298CF4BB006AE86C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9B4F7298CF4BB006AE86C /* Constants.swift */; };
-		80E9B4FA298CF77F006AE86C /* FilmsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9B4F9298CF77F006AE86C /* FilmsDetailViewController.swift */; };
 		80EDC41229102BB600646F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC41129102BB600646F1F /* AppDelegate.swift */; };
 		80EDC41429102BB600646F1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC41329102BB600646F1F /* SceneDelegate.swift */; };
 		80EDC41629102BB600646F1F /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC41529102BB600646F1F /* FilmsViewController.swift */; };
@@ -28,7 +32,7 @@
 		80EDC42929102BB700646F1F /* FilmApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC42829102BB700646F1F /* FilmApiTests.swift */; };
 		80EDC43329102BB700646F1F /* FilmApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC43229102BB700646F1F /* FilmApiUITests.swift */; };
 		80EDC43529102BB700646F1F /* FilmApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC43429102BB700646F1F /* FilmApiUITestsLaunchTests.swift */; };
-		80EDC44429102C8900646F1F /* EntityFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC44329102C8900646F1F /* EntityFilm.swift */; };
+		80EDC44429102C8900646F1F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDC44329102C8900646F1F /* Movie.swift */; };
 		972871EA6B8ED1124716FDB8 /* Pods_FilmApi_FilmApiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6758687DE558C55EFCF4F391 /* Pods_FilmApi_FilmApiUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,12 +62,16 @@
 		8013904D2977DDD000EB8FB4 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		8013904F29793F0E00EB8FB4 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		8060B4BE296DBD0A00310A42 /* PopularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		80A10C9F298D879E009418E9 /* VideoResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoResults.swift; sourceTree = "<group>"; };
+		80A5F2F8298D04980005BB78 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		80A5F2FA298D59980005BB78 /* MovieInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoViewController.swift; sourceTree = "<group>"; };
+		80A5F2FF298D5D3D0005BB78 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		80A5F302298D67D00005BB78 /* MoviePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePlayerViewController.swift; sourceTree = "<group>"; };
 		80E1AD4D296DC47C00CDA3DB /* EntityPopular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityPopular.swift; sourceTree = "<group>"; };
 		80E1AD4F29716EA100CDA3DB /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
 		80E9B4F1298CEADE006AE86C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		80E9B4F3298CF34E006AE86C /* FilmsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsTableViewCell.swift; sourceTree = "<group>"; };
 		80E9B4F7298CF4BB006AE86C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		80E9B4F9298CF77F006AE86C /* FilmsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsDetailViewController.swift; sourceTree = "<group>"; };
 		80EDC40E29102BB600646F1F /* FilmApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EDC41129102BB600646F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80EDC41329102BB600646F1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,7 +85,7 @@
 		80EDC42E29102BB700646F1F /* FilmApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EDC43229102BB700646F1F /* FilmApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmApiUITests.swift; sourceTree = "<group>"; };
 		80EDC43429102BB700646F1F /* FilmApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		80EDC44329102C8900646F1F /* EntityFilm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityFilm.swift; sourceTree = "<group>"; };
+		80EDC44329102C8900646F1F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		AF22F10A565522C7CCF1E4B2 /* Pods_FilmApiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilmApiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B741E09165928E816049A3 /* Pods-FilmApi-FilmApiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmApi-FilmApiUITests.debug.xcconfig"; path = "Target Support Files/Pods-FilmApi-FilmApiUITests/Pods-FilmApi-FilmApiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C666879F03946366770C65EE /* Pods-FilmApiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmApiTests.release.xcconfig"; path = "Target Support Files/Pods-FilmApiTests/Pods-FilmApiTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,11 +134,27 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		80A5F2FC298D59BE0005BB78 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				80A5F2FF298D5D3D0005BB78 /* Label.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		80A5F301298D67A00005BB78 /* MoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				80A5F302298D67D00005BB78 /* MoviePlayerViewController.swift */,
+			);
+			path = MoviePlayer;
+			sourceTree = "<group>";
+		};
 		80E9B4EF298CEA48006AE86C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				80EDC41529102BB600646F1F /* FilmsViewController.swift */,
-				80E9B4F9298CF77F006AE86C /* FilmsDetailViewController.swift */,
+				80A5F2FA298D59980005BB78 /* MovieInfoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -138,7 +162,9 @@
 		80E9B4F0298CEA5F006AE86C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				80EDC44329102C8900646F1F /* EntityFilm.swift */,
+				80EDC44329102C8900646F1F /* Movie.swift */,
+				80A5F2F8298D04980005BB78 /* Video.swift */,
+				80A10C9F298D879E009418E9 /* VideoResults.swift */,
 				80E9B4F1298CEADE006AE86C /* Model.swift */,
 			);
 			path = Model;
@@ -184,6 +210,8 @@
 		80EDC41029102BB600646F1F /* FilmApi */ = {
 			isa = PBXGroup;
 			children = (
+				80A5F301298D67A00005BB78 /* MoviePlayer */,
+				80A5F2FC298D59BE0005BB78 /* Extenstions */,
 				80E9B4F0298CEA5F006AE86C /* Model */,
 				80E9B4EF298CEA48006AE86C /* Controllers */,
 				80E9B4F5298CF436006AE86C /* View */,
@@ -478,16 +506,20 @@
 			files = (
 				8060B4BF296DBD0A00310A42 /* PopularViewController.swift in Sources */,
 				80EDC41629102BB600646F1F /* FilmsViewController.swift in Sources */,
+				80A10CA0298D879E009418E9 /* VideoResults.swift in Sources */,
 				8013905029793F0E00EB8FB4 /* TabBarVC.swift in Sources */,
 				80EDC41229102BB600646F1F /* AppDelegate.swift in Sources */,
 				80EDC41429102BB600646F1F /* SceneDelegate.swift in Sources */,
+				80A5F2F9298D04980005BB78 /* Video.swift in Sources */,
+				80A5F303298D67D00005BB78 /* MoviePlayerViewController.swift in Sources */,
 				8013904E2977DDD000EB8FB4 /* CustomTabBar.swift in Sources */,
+				80A5F2FB298D59980005BB78 /* MovieInfoViewController.swift in Sources */,
+				80A5F300298D5D3D0005BB78 /* Label.swift in Sources */,
 				80E1AD5029716EA100CDA3DB /* PopularCollectionViewCell.swift in Sources */,
 				80E9B4F2298CEADE006AE86C /* Model.swift in Sources */,
-				80E9B4FA298CF77F006AE86C /* FilmsDetailViewController.swift in Sources */,
 				80E9B4F4298CF34E006AE86C /* FilmsTableViewCell.swift in Sources */,
 				80E1AD4E296DC47C00CDA3DB /* EntityPopular.swift in Sources */,
-				80EDC44429102C8900646F1F /* EntityFilm.swift in Sources */,
+				80EDC44429102C8900646F1F /* Movie.swift in Sources */,
 				80E9B4F8298CF4BB006AE86C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

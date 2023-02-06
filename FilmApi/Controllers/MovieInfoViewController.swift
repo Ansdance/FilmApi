@@ -24,9 +24,8 @@ class MovieInfoViewController: UIViewController {
     @IBOutlet weak var voteCount: UILabel!
 
     var movie = Movie()
-    var videos = VideoResults()
 //    var video : [Video] = []
-    private var vResult: [VideoResults] = []
+    private var videoResults: [VideoResult] = []
     var keyURL: String = ""
     
     override func viewDidLoad() {
@@ -80,25 +79,21 @@ class MovieInfoViewController: UIViewController {
         AF.request(Constants.URL_OF_VIDEO + String(movie.id) + Constants.ADD_TO_VIDEO, method: .get,
                    parameters: parameters).responseData {
             responce in
-            print("-----------------------------")
-            print(String(self.movie.id))
             var resultString = ""
             if let data = responce.data {
                 resultString = String(data: data, encoding: .utf8)!
-                print(resultString)
             }
             if responce.response?.statusCode == 200 {
                 let json = JSON(responce.data!)
-//                print(json)
                 if let array = json["results"].array {
                     for item in array {
-                        let filmVideo = VideoResults (json: item)
-                        self.vResult.append(filmVideo)
-                        for tt in self.vResult {
-                            if self.keyURL == "" {
-                                self.keyURL.append(tt.key)
-                            }
-                        }
+                        let filmVideo = VideoResult (json: item)
+                        self.videoResults.append(filmVideo)
+//                        for tt in self.vResult {
+//                            if self.keyURL == "" {
+//                                self.keyURL.append(tt.key)
+//                            }
+//                        }
                     }
 
                 }
@@ -114,12 +109,14 @@ class MovieInfoViewController: UIViewController {
     @IBAction func playMovie(_ sender: Any) {
         
         let playerVC = storyboard?.instantiateViewController(withIdentifier: "MoviePlayerViewController") as! MoviePlayerViewController
-        print(keyURL)
-        playerVC.video_link = keyURL
-        navigationController?.show(playerVC, sender: self)
+        if let videoUrl = self.videoResults.first {
+            playerVC.video_link = videoUrl.key
+            navigationController?.show(playerVC, sender: self)
+        }
+//        playerVC.video_link = keyURL
+        
     }
-    
-    
+
 }
 
 

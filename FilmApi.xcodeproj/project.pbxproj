@@ -12,7 +12,7 @@
 		8013904E2977DDD000EB8FB4 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8013904D2977DDD000EB8FB4 /* CustomTabBar.swift */; };
 		8013905029793F0E00EB8FB4 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8013904F29793F0E00EB8FB4 /* TabBarVC.swift */; };
 		8060B4BF296DBD0A00310A42 /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060B4BE296DBD0A00310A42 /* PopularViewController.swift */; };
-		80A10CA0298D879E009418E9 /* VideoResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A10C9F298D879E009418E9 /* VideoResults.swift */; };
+		80A10CA0298D879E009418E9 /* VideoResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A10C9F298D879E009418E9 /* VideoResult.swift */; };
 		80A5F2F9298D04980005BB78 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5F2F8298D04980005BB78 /* Video.swift */; };
 		80A5F2FB298D59980005BB78 /* MovieInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5F2FA298D59980005BB78 /* MovieInfoViewController.swift */; };
 		80A5F300298D5D3D0005BB78 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5F2FF298D5D3D0005BB78 /* Label.swift */; };
@@ -62,7 +62,7 @@
 		8013904D2977DDD000EB8FB4 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		8013904F29793F0E00EB8FB4 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		8060B4BE296DBD0A00310A42 /* PopularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
-		80A10C9F298D879E009418E9 /* VideoResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoResults.swift; sourceTree = "<group>"; };
+		80A10C9F298D879E009418E9 /* VideoResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoResult.swift; sourceTree = "<group>"; };
 		80A5F2F8298D04980005BB78 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		80A5F2FA298D59980005BB78 /* MovieInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoViewController.swift; sourceTree = "<group>"; };
 		80A5F2FF298D5D3D0005BB78 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 			children = (
 				80EDC44329102C8900646F1F /* Movie.swift */,
 				80A5F2F8298D04980005BB78 /* Video.swift */,
-				80A10C9F298D879E009418E9 /* VideoResults.swift */,
+				80A10C9F298D879E009418E9 /* VideoResult.swift */,
 				80E9B4F1298CEADE006AE86C /* Model.swift */,
 			);
 			path = Model;
@@ -506,7 +506,7 @@
 			files = (
 				8060B4BF296DBD0A00310A42 /* PopularViewController.swift in Sources */,
 				80EDC41629102BB600646F1F /* FilmsViewController.swift in Sources */,
-				80A10CA0298D879E009418E9 /* VideoResults.swift in Sources */,
+				80A10CA0298D879E009418E9 /* VideoResult.swift in Sources */,
 				8013905029793F0E00EB8FB4 /* TabBarVC.swift in Sources */,
 				80EDC41229102BB600646F1F /* AppDelegate.swift in Sources */,
 				80EDC41429102BB600646F1F /* SceneDelegate.swift in Sources */,

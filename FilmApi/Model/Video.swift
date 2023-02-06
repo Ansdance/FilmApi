@@ -11,7 +11,7 @@ import SwiftyJSON
 class Video {
     
     var id:Int = 0
-    var results: [VideoResults] = []
+    var results: [VideoResult] = []
    
     
     init() {
@@ -24,7 +24,7 @@ class Video {
         
         if let array = json["results"].array {
             for item in array {
-                let temp = VideoResults(json: item)
+                let temp = VideoResult(json: item)
                 self.results.append(temp)
             }
         }

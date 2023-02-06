@@ -8,14 +8,14 @@
 import Foundation
 import SwiftyJSON
 
-class VideoResults {
+class VideoResult {
     
     var id:String = ""
     var key:String = ""
     var site:String = ""
     var size:Int = 0
     var type:String = ""
-    var published_at:String = ""
+    var publishedAt:String = ""
     //    var genre_ids:Int = 0
     
     init() {
@@ -26,7 +26,7 @@ class VideoResults {
             id = item
         }
         if let item = json["key"].string {
-            key = Constants.URL_OF_YOUTUBE + item
+            key = item
         }
         if let item = json["site"].string {
             site = item
@@ -38,7 +38,7 @@ class VideoResults {
             type = item
         }
         if let item = json["published_at"].string {
-            published_at = item
+            publishedAt = item
         }
     }
 }

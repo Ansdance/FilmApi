@@ -8,7 +8,7 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
-import SVProgressHUD
+//import SVProgressHUD
 
 final class FilmsViewController: UIViewController, UISearchBarDelegate, ModelDelegate {
     

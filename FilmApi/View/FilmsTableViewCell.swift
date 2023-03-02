@@ -34,5 +34,4 @@ class FilmsTableViewCell: UITableViewCell {
         imagePosterPath.sd_setImage(with: URL(string: film.poster_path), completed: nil)
         imagePosterPath.layer.cornerRadius = 30
     }
-    
 }
